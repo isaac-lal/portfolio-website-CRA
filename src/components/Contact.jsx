@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        'service_il1yuww',
+        'template_ogc57ri',
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        'o65rE5oGK3ae8zJ6P'
       )
       .then(
         (result) => {
