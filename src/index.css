@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  animation: transitionIn 1.5s;
+  animation: transitionIn 3s;
 }
 
 @keyframes transitionIn {
