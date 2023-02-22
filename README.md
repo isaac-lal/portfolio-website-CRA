@@ -8,7 +8,7 @@
           
 
 ### Content
-- HOME: a summary of my profession with links to my LinkedIn, GitHub, Email, and Resume
+- HOME: a summary of my profession with links to my LinkedIn, GitHub, Instagram, and Email
 - ABOUT: my story with computer science and why I wanted to pursue Web Development
 - SKILLS: my experience with Web Development technologies and tools
 - PROJECTS: my high-quality projects that showcase my talent
