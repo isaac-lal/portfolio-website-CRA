@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactImg from '../../src/assets/general/contact.jpg';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -74,14 +74,14 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
+                  <a href='https://www.instagram.com/lalify8/' target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                      <AiOutlineInstagram />
+                    </div>
+                  </a>
                   <a href='mailto:isaaclal124@gmail.com' target='_blank'>
                     <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                       <AiOutlineMail />
-                    </div>
-                  </a>
-                  <a href='' target='_blank'>
-                    <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                      <BsFillPersonLinesFill />
                     </div>
                   </a>
                 </div>
@@ -145,7 +145,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <a href='/'>
+          <a href='/#home'>
             <div className='rounded-full shadow-lg shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='hover:text-[#00bfff]'

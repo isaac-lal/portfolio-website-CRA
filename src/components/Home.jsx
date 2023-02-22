@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -35,14 +35,14 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
+            <a href='https://www.instagram.com/lalify8/' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                <AiOutlineInstagram />
+              </div>
+            </a>
             <a href='mailto:isaaclal124@gmail.com' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <AiOutlineMail />
-              </div>
-            </a>
-            <a href='' target='_blank'>
-              <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                <BsFillPersonLinesFill />
               </div>
             </a>
           </div>

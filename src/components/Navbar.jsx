@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
+import {
+  AiOutlineClose,
+  AiOutlineMenu,
+  AiOutlineMail,
+  AiOutlineInstagram,
+} from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../../src/assets/general/logo.png';
@@ -36,12 +41,7 @@ const Navbar = () => {
           href='https://github.com/isaac-lal/portfolio-website'
           target='_blank'
         >
-          <img
-            src={Logo}
-            alt='/'
-            width='125'
-            height='100'
-          />
+          <img src={Logo} alt='/' width='125' height='100' />
         </a>
         <div>
           <ul className='hidden md:flex'>
@@ -96,12 +96,7 @@ const Navbar = () => {
                 href='https://github.com/isaac-lal/portfolio-website'
                 target='_blank'
               >
-                <img
-                  src={Logo}
-                  width='100'
-                  height='75'
-                  alt='/'
-                />
+                <img src={Logo} width='100' height='75' alt='/' />
               </a>
               <div
                 onClick={handleNav}
@@ -119,27 +114,42 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <a href='/#home'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                >
                   Home
                 </li>
               </a>
               <a href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                >
                   About
                 </li>
               </a>
               <a href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                >
                   Skills
                 </li>
               </a>
               <a href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                >
                   Projects
                 </li>
               </a>
               <a href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                >
                   Contact
                 </li>
               </a>
@@ -162,14 +172,14 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
+                <a href='https://www.instagram.com/lalify8/' target='_blank'>
+                  <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                    <AiOutlineInstagram />
+                  </div>
+                </a>
                 <a href='mailto:isaaclal124@gmail.com' target='_blank'>
                   <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                     <AiOutlineMail />
-                  </div>
-                </a>
-                <a href='' target='_blank'>
-                  <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                    <BsFillPersonLinesFill />
                   </div>
                 </a>
               </div>
