@@ -1,4 +1,4 @@
-# Isaac Lal's Portfolio
+# Isaac Lal's Portfolio (OUTDATED)
 
 ### Technologies & Tools
 
