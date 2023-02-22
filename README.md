@@ -1,3 +1,21 @@
+# Isaac Lal's Portfolio
+
+### Technologies & Tools
+
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" width="40" height="40"/> </a>
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="tailwind" width="40" height="40"/> </a>
+          
+
+### Content
+- HOME: a summary of my profession with links to my LinkedIn, GitHub, Email, and Resume
+- ABOUT: my story with computer science and why I wanted to pursue Web Development
+- SKILLS: my experience with Web Development technologies and tools
+- PROJECTS: my high-quality projects that showcase my talent
+- CONTACT: my contact form to get in touch with me
+
+### I hope you enjoy!
+--- 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
