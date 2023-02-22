@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Main = () => {
   return (
@@ -25,22 +24,38 @@ const Main = () => {
             Let's Connect
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <a href='https://www.linkedin.com/in/isaac-lal/' target='_blank'>
+            <a
+              href='https://www.linkedin.com/in/isaac-lal/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href='https://github.com/isaac-lal' target='_blank'>
+            <a
+              href='https://github.com/isaac-lal'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <FaGithub />
               </div>
             </a>
-            <a href='https://www.instagram.com/lalify8/' target='_blank'>
+            <a
+              href='https://www.instagram.com/lalify8/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <AiOutlineInstagram />
               </div>
             </a>
-            <a href='mailto:isaaclal124@gmail.com' target='_blank'>
+            <a
+              href='mailto:isaaclal124@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                 <AiOutlineMail />
               </div>

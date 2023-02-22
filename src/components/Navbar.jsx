@@ -6,7 +6,6 @@ import {
   AiOutlineInstagram,
 } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../../src/assets/general/logo.png';
 
 const Navbar = () => {
@@ -162,22 +161,35 @@ const Navbar = () => {
                 <a
                   href='https://www.linkedin.com/in/isaac-lal/'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href='https://github.com/isaac-lal' target='_blank'>
+                <a
+                  href='https://github.com/isaac-lal'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
-                <a href='https://www.instagram.com/lalify8/' target='_blank'>
+                <a
+                  href='https://www.instagram.com/lalify8/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                     <AiOutlineInstagram />
                   </div>
                 </a>
-                <a href='mailto:isaaclal124@gmail.com' target='_blank'>
+                <a
+                  href='mailto:isaaclal124@gmail.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
