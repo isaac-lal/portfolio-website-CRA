@@ -1,9 +1,11 @@
 import React from 'react';
 import AboutImg from '../../src/assets/general/about.jpeg';
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+      <Fade top distance='20%'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#00bfff]'>
@@ -45,6 +47,7 @@ const About = () => {
           <img src={AboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>
+      </Fade>
     </div>
   );
 };
